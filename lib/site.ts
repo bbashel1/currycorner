@@ -24,11 +24,21 @@ export const HOURS_LINES = [
 export const INSTAGRAM_HANDLE = "currycornerbham";
 export const INSTAGRAM_URL = `https://www.instagram.com/${INSTAGRAM_HANDLE}/`;
 
+export const FACEBOOK_URL =
+  "https://www.facebook.com/profile.php?id=61559544091231";
+
 export const MAPS_EMBED_SRC =
   "https://www.google.com/maps?q=2037+Cahaba+Rd,+Mountain+Brook,+AL+35223&output=embed";
 
 export const MAPS_LINK =
   "https://www.google.com/maps/search/?api=1&query=2037+Cahaba+Road+Mountain+Brook+AL+35223";
+
+/** Google Maps place (reviews tab / all reviews) — place id from Google Maps */
+export const GOOGLE_REVIEWS_URL =
+  "https://www.google.com/maps/search/?api=1&query=Curry+Corner+2037+Cahaba+Rd+Mountain+Brook+AL&query_place_id=ChIJtX38VZAbiYgRwXCEeCMsMkU";
+
+/** Google Place ID used by Places API for live reviews */
+export const GOOGLE_PLACE_ID = "ChIJtX38VZAbiYgRwXCEeCMsMkU";
 
 /** Toast online ordering (pickup / delivery per store hours) */
 export const ORDER_ONLINE_URL =

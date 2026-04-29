@@ -3,6 +3,7 @@ import Link from "next/link";
 import { FadeIn } from "@/components/FadeIn";
 import { HomeSeoJsonLd } from "@/components/HomeSeoJsonLd";
 import { InstagramPreview } from "@/components/InstagramPreview";
+import { ReviewsSection } from "@/components/ReviewsSection";
 import { SectionWrapper } from "@/components/SectionWrapper";
 import {
   btnCoral,
@@ -315,6 +316,41 @@ export default function HomePage() {
           </div>
         </FadeIn>
       </SectionWrapper>
+
+      <SectionWrapper
+        id="catering"
+        title="Catering requests"
+        subtitle="Hosting an office lunch, family party, or special event in Birmingham? Share your details and we will help plan the right menu."
+        className={sectionAltClass}
+      >
+        <FadeIn>
+          <div className={`relative overflow-hidden ${cardSurface} p-6 sm:p-8`}>
+            <div
+              className="pointer-events-none absolute inset-0 bg-[radial-gradient(ellipse_75%_50%_at_100%_0%,rgba(232,165,75,0.12),transparent_55%)]"
+              aria-hidden
+            />
+            <div className="relative">
+              <p className="max-w-2xl text-sm leading-relaxed text-[var(--cc-muted)] sm:text-base">
+                Include your event date, estimated guest count, pickup or delivery preference, and
+                any dietary notes so we can respond quickly with recommendations.
+              </p>
+              <div className="mt-8 flex flex-col gap-3 sm:flex-row sm:flex-wrap">
+                <a href={`tel:${PHONE_TEL}`} className={btnCoral}>
+                  Call for Catering
+                </a>
+                <a
+                  href="mailto:currycornerbham@gmail.com?subject=Catering%20Request"
+                  className={btnGold}
+                >
+                  Email Catering Request
+                </a>
+              </div>
+            </div>
+          </div>
+        </FadeIn>
+      </SectionWrapper>
+
+      <ReviewsSection />
 
       <SectionWrapper
         className="border-t border-[var(--cc-border)] bg-[var(--cc-bg-elevated)]/80 pb-28 md:pb-20"

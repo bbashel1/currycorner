@@ -15,7 +15,7 @@ export function Logo({ className = "", width, height, priority }: LogoProps) {
       alt=""
       width={width}
       height={height}
-      className={`h-auto max-w-full object-contain object-left ${className}`}
+      className={`h-auto w-auto max-w-full object-contain object-left ${className}`}
       priority={priority}
     />
   );

@@ -1,5 +1,7 @@
 import {
   ADDRESS_FULL,
+  FACEBOOK_URL,
+  INSTAGRAM_URL,
   PHONE_DISPLAY,
   SITE_LOGO_PATH,
   SITE_NAME,
@@ -21,6 +23,7 @@ export function HomeSeoJsonLd() {
       "@type": "Organization",
       name: SITE_NAME,
       url: base,
+      sameAs: [FACEBOOK_URL, INSTAGRAM_URL],
       logo: {
         "@type": "ImageObject",
         url: `${base}${SITE_LOGO_PATH}`,

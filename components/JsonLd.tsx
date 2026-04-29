@@ -1,5 +1,6 @@
 import {
   ADDRESS_LINE,
+  FACEBOOK_URL,
   INSTAGRAM_URL,
   PHONE_DISPLAY,
   SITE_LOGO_PATH,
@@ -19,7 +20,7 @@ export function JsonLd() {
     url: base,
     telephone: PHONE_DISPLAY,
     menu: `${base}/menu`,
-    sameAs: [INSTAGRAM_URL],
+    sameAs: [FACEBOOK_URL, INSTAGRAM_URL],
     address: {
       "@type": "PostalAddress",
       streetAddress: ADDRESS_LINE,

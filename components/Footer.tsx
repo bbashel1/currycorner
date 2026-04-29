@@ -4,6 +4,8 @@ import { btnGoldSm } from "@/lib/styles";
 import {
   ADDRESS_CITY,
   ADDRESS_LINE,
+  FACEBOOK_URL,
+  GOOGLE_REVIEWS_URL,
   HOURS_LINES,
   INSTAGRAM_URL,
   MAPS_LINK,
@@ -66,16 +68,38 @@ export function Footer() {
               {PHONE_DISPLAY}
             </a>
           </p>
-          <p className="mt-2">
-            <a
-              href={INSTAGRAM_URL}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-sm text-[var(--cc-muted)] transition hover:text-[var(--cc-cream)]"
-            >
-              Instagram
-            </a>
-          </p>
+          <ul className="mt-2 space-y-2">
+            <li>
+              <a
+                href={FACEBOOK_URL}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-sm text-[var(--cc-muted)] transition hover:text-[var(--cc-cream)]"
+              >
+                Facebook
+              </a>
+            </li>
+            <li>
+              <a
+                href={INSTAGRAM_URL}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-sm text-[var(--cc-muted)] transition hover:text-[var(--cc-cream)]"
+              >
+                Instagram
+              </a>
+            </li>
+            <li>
+              <a
+                href={GOOGLE_REVIEWS_URL}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-sm text-[var(--cc-muted)] transition hover:text-[var(--cc-cream)]"
+              >
+                Google reviews
+              </a>
+            </li>
+          </ul>
           <p className="mt-5">
             <a
               href={ORDER_ONLINE_URL}
