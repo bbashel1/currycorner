@@ -57,7 +57,7 @@ export function MenuFeaturedSection({ items, firstCategoryId }: MenuFeaturedSect
               href={`#${firstCategoryId}`}
               className="font-medium text-[var(--cc-accent-light)] hover:underline"
             >
-              Browse full menu below
+              Browse all categories below
             </Link>
           </p>
         )}

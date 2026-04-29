@@ -50,6 +50,22 @@ export default function MenuPage() {
 
       <MenuFeaturedSection items={featured} firstCategoryId={firstSectionId} />
 
+      <section className="sticky top-[64px] z-30 border-y border-[var(--cc-border)] bg-[var(--cc-bg)]/92 backdrop-blur-md">
+        <div className="mx-auto max-w-6xl overflow-x-auto px-4 py-3 sm:px-6 lg:px-8">
+          <nav className="flex min-w-max items-center gap-2.5" aria-label="Menu categories">
+            {categories.map((cat) => (
+              <a
+                key={cat.id}
+                href={`#${cat.id}`}
+                className="inline-flex items-center rounded-full border border-[var(--cc-border-strong)] bg-[var(--cc-card)]/80 px-3 py-1.5 text-xs font-medium uppercase tracking-[0.08em] text-[var(--cc-muted)] transition hover:border-[var(--cc-gold)]/35 hover:text-[var(--cc-cream)]"
+              >
+                {cat.name}
+              </a>
+            ))}
+          </nav>
+        </div>
+      </section>
+
       <div id="menu-categories">
         {categories.map((cat, ci) => (
           <SectionWrapper
@@ -63,12 +79,21 @@ export default function MenuPage() {
                 : "relative border-y border-[var(--cc-border)] bg-[var(--cc-bg-elevated)]/90 backdrop-blur-[2px]"
             }
           >
-            <div className="grid grid-cols-1 gap-3 sm:grid-cols-2 sm:gap-4 lg:grid-cols-3">
-              {cat.items.map((item, ii) => (
-                <FadeIn key={item.id} delayMs={Math.min(ii * 25, 200)}>
-                  <MenuItemCard item={item} variant="default" />
-                </FadeIn>
-              ))}
+            <div className="mb-5 flex items-center justify-between rounded-xl border border-[var(--cc-border)] bg-[var(--cc-card)]/65 px-4 py-2.5 text-xs uppercase tracking-[0.16em] text-[var(--cc-muted)]">
+              <span>{cat.items.length} items</span>
+              <a href={ORDER_ONLINE_URL} target="_blank" rel="noopener noreferrer" className="text-[var(--cc-gold)]">
+                Order from this section
+              </a>
+            </div>
+            <div className="grid grid-cols-1 gap-3 md:grid-cols-2 lg:gap-4">
+              {cat.items.map((item, ii) => {
+                const variant = ii < 2 ? "featured" : "default";
+                return (
+                  <FadeIn key={item.id} delayMs={Math.min(ii * 25, 200)}>
+                    <MenuItemCard item={item} variant={variant} />
+                  </FadeIn>
+                );
+              })}
             </div>
           </SectionWrapper>
         ))}

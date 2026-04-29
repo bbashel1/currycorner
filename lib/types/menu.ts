@@ -6,7 +6,7 @@ export type MenuItem = {
   description: string;
   price: string;
   /**
-   * Optional image (takes priority over auto-picked photos).
+   * Optional real image for this menu item.
    * Use a full URL, `/images/photo.jpg` (under `public/`), or `images/photo.jpg`.
    */
   image?: string;
@@ -26,7 +26,7 @@ export type MenuData = {
 
 /** Runtime-enriched item for UI */
 export type EnrichedMenuItem = MenuItem & {
-  imageUrl: string;
+  imageUrl?: string;
   badges: MenuBadge[];
 };
 

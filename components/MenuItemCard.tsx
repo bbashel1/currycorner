@@ -1,4 +1,3 @@
-import Image from "next/image";
 import type { EnrichedMenuItem } from "@/lib/types/menu";
 
 const BADGE_LABEL: Record<string, string> = {
@@ -23,31 +22,16 @@ export function MenuItemCard({ item, variant = "default" }: MenuItemCardProps) {
   const isFeatured = variant === "featured";
   const desc = item.description.trim();
   const showDesc = desc.length > 0;
+  const hasImage = Boolean(item.imageUrl);
 
   return (
     <article
-      className={`group flex flex-col overflow-hidden rounded-xl border border-[var(--cc-border)] bg-[var(--cc-card)] shadow-[var(--cc-shadow-card)] ring-1 ring-white/[0.04] transition duration-300 hover:z-10 hover:scale-[1.02] hover:border-[var(--cc-accent)]/50 hover:shadow-xl hover:shadow-black/40 hover:ring-[var(--cc-gold)]/20 ${
-        isFeatured ? "min-h-[280px] sm:min-h-[300px]" : ""
+      className={`group flex h-full flex-col overflow-hidden rounded-2xl border border-[var(--cc-border)] bg-[var(--cc-card)] shadow-[var(--cc-shadow-card)] ring-1 ring-white/[0.04] transition duration-300 hover:border-[var(--cc-border-hover)] hover:shadow-black/40 hover:ring-[var(--cc-gold)]/20 ${
+        isFeatured ? "min-h-[200px] border-[var(--cc-gold)]/20" : ""
       }`}
     >
-      <div
-        className={`relative w-full shrink-0 overflow-hidden bg-[var(--cc-bg)] ${
-          isFeatured ? "h-40 sm:h-44" : "h-28 sm:h-32"
-        }`}
-      >
-        <Image
-          src={item.imageUrl}
-          alt=""
-          fill
-          className="object-cover transition duration-500 group-hover:scale-105"
-          sizes={isFeatured ? "(max-width: 768px) 100vw, 25vw" : "(max-width: 768px) 100vw, 33vw"}
-          unoptimized={item.imageUrl.endsWith(".svg")}
-        />
-        <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-[var(--cc-card)]/90 via-transparent to-transparent opacity-60" />
-      </div>
-
-      <div className={`flex min-h-0 flex-1 flex-col ${isFeatured ? "p-4 sm:p-5" : "p-3 sm:p-4"}`}>
-        <div className="flex items-start justify-between gap-2 border-b border-white/[0.06] pb-2.5">
+      <div className={`flex min-h-0 flex-1 flex-col ${isFeatured ? "p-5 sm:p-6" : "p-4 sm:p-5"}`}>
+        <div className="flex items-start justify-between gap-2 border-b border-white/[0.06] pb-3">
           <h3
             className={`min-w-0 flex-1 font-heading font-semibold leading-snug text-[var(--cc-cream)] ${
               isFeatured ? "text-lg sm:text-xl" : "text-base sm:text-[1.05rem]"
@@ -64,9 +48,17 @@ export function MenuItemCard({ item, variant = "default" }: MenuItemCardProps) {
           </span>
         </div>
 
+        {hasImage && (
+          <p className="mt-2 text-[10px] uppercase tracking-[0.16em] text-[var(--cc-gold)]/75">
+            Real menu photo available
+          </p>
+        )}
+
         {showDesc && (
           <p
-            className="mt-2 line-clamp-1 text-sm leading-snug text-[var(--cc-muted)]"
+            className={`mt-2 text-sm leading-snug text-[var(--cc-muted)] ${
+              isFeatured ? "line-clamp-3" : "line-clamp-2"
+            }`}
             title={desc}
           >
             {desc}
@@ -74,7 +66,9 @@ export function MenuItemCard({ item, variant = "default" }: MenuItemCardProps) {
         )}
 
         {!showDesc && isFeatured && (
-          <p className="mt-2 text-xs italic text-[var(--cc-muted)]/80">Guest favorite · see Toast for details</p>
+          <p className="mt-2 text-xs italic text-[var(--cc-muted)]/80">
+            Guest favorite from our kitchen.
+          </p>
         )}
 
         {item.badges.length > 0 && (
