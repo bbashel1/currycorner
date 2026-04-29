@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="Appetizer placeholder">
+  <defs>
+    <linearGradient id="bg4" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a100e"/>
+      <stop offset="100%" style="stop-color:#3d2218"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#bg4)"/>
+  <polygon points="400,120 520,380 280,380" fill="#d4a04a" opacity="0.9"/>
+  <polygon points="400,160 480,340 320,340" fill="#8b3a1a" opacity="0.6"/>
+  <text x="400" y="520" text-anchor="middle" fill="#f5e6d3" font-family="Georgia,serif" font-size="28">Appetizers</text>
+</svg>

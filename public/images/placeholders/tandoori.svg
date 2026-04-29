@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="Tandoori placeholder">
+  <defs>
+    <linearGradient id="bg3" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#1c0806"/>
+      <stop offset="100%" style="stop-color:#4a1e14"/>
+    </linearGradient>
+    <linearGradient id="chicken" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#e85d2a"/>
+      <stop offset="100%" style="stop-color:#8b2410"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#bg3)"/>
+  <ellipse cx="400" cy="300" rx="160" ry="200" fill="url(#chicken)" opacity="0.85"/>
+  <ellipse cx="400" cy="280" rx="120" ry="80" fill="#5c1a0f" opacity="0.4"/>
+  <text x="400" y="520" text-anchor="middle" fill="#f5e6d3" font-family="Georgia,serif" font-size="28">Tandoori Chicken</text>
+</svg>

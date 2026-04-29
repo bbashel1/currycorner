@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="Curry placeholder">
+  <defs>
+    <linearGradient id="bg2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#2a0f0c"/>
+      <stop offset="100%" style="stop-color:#5c2418"/>
+    </linearGradient>
+    <radialGradient id="bowl" cx="50%" cy="45%" r="50%">
+      <stop offset="0%" style="stop-color:#ffb366"/>
+      <stop offset="100%" style="stop-color:#c45c28"/>
+    </radialGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#bg2)"/>
+  <ellipse cx="400" cy="310" rx="200" ry="120" fill="url(#bowl)"/>
+  <ellipse cx="400" cy="290" rx="140" ry="70" fill="#a83218" opacity="0.5"/>
+  <text x="400" y="520" text-anchor="middle" fill="#f5e6d3" font-family="Georgia,serif" font-size="26">Chicken Tikka Masala</text>
+</svg>

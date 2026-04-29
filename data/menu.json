@@ -1,0 +1,856 @@
+{
+  "categories": [
+    {
+      "id": "non-veg-appetizers",
+      "name": "NON VEG APPETIZERS",
+      "items": [
+        {
+          "id": "chicken-chilly-fry",
+          "name": "Chicken Chilly Fry",
+          "description": "",
+          "price": "$12.95"
+        },
+        {
+          "id": "chicken-65",
+          "name": "Chicken 65",
+          "description": "",
+          "price": "$12.95"
+        }
+      ]
+    },
+    {
+      "id": "appetizers",
+      "name": "APPETIZERS",
+      "items": [
+        {
+          "id": "assorted-appetizer",
+          "name": "Assorted Appetizer",
+          "description": "Vegetable samosas with mixed pakora.",
+          "price": "$9.95"
+        },
+        {
+          "id": "lentil-soup",
+          "name": "Lentil Soup",
+          "description": "",
+          "price": "$4.95"
+        },
+        {
+          "id": "pakora",
+          "name": "Pakora",
+          "description": "Mixed vegetable fritters, fried and delicately spiced.",
+          "price": "$5.95"
+        },
+        {
+          "id": "paneer-pakora",
+          "name": "Paneer Pakora",
+          "description": "Homemade cheese fritters.",
+          "price": "$7.95"
+        },
+        {
+          "id": "papad",
+          "name": "Papad",
+          "description": "",
+          "price": "$1.75"
+        },
+        {
+          "id": "samosa-chaat",
+          "name": "Samosa Chaat",
+          "description": "Samosa chaat. Hints of sweet, tangy, and spicy flavors combined with the robust chaat masala make this classic street food special.",
+          "price": "$10.45"
+        },
+        {
+          "id": "spring-roll",
+          "name": "Spring Roll",
+          "description": "Vegetable spring roll come 2 pieces.",
+          "price": "$4.95"
+        },
+        {
+          "id": "coconut-tomato-soup",
+          "name": "Coconut Tomato Soup",
+          "description": "",
+          "price": "$6.95"
+        },
+        {
+          "id": "vegetarian-samosa",
+          "name": "Vegetarian Samosa",
+          "description": "Crisp turnover, filled with mildly spiced potatoes and peas.",
+          "price": "$6.45"
+        },
+        {
+          "id": "paneer-65",
+          "name": "Paneer 65",
+          "description": "Marinating paneer cubes in a mix of yogurt and spices, then deep-frying them until golden and crispy.",
+          "price": "$12.95"
+        },
+        {
+          "id": "paneer-chilly-fry",
+          "name": "Paneer Chilly Fry",
+          "description": "",
+          "price": "$12.95"
+        },
+        {
+          "id": "honey-cauliflower",
+          "name": "Honey Cauliflower",
+          "description": "Crispy, battered cauliflower florets tossed in a sweet and tangy sauce made with honey, garlic, soy sauce, and chili peppers, garnished with sesame seeds and green onions.",
+          "price": "$14.25"
+        }
+      ]
+    },
+    {
+      "id": "dum-biryanis",
+      "name": "DUM BIRYANIS",
+      "items": [
+        {
+          "id": "chicken-biryani",
+          "name": "Chicken Biryani",
+          "description": "Chicken marinated with spices and saffron, then stem-cooked with naturally fragrant Basmati rice. A classic Mughal dish!",
+          "price": "$16.95"
+        },
+        {
+          "id": "goat-biryani",
+          "name": "Goat Biryani",
+          "description": "Juicy succulent goat cooked with flavorful rice, this combination is to die for.",
+          "price": "$18.95"
+        },
+        {
+          "id": "lamb-biryani",
+          "name": "Lamb Biryani",
+          "description": "Succulent pieces of curried lamb cooked with Basmati rice, gently flavored with saffron and nuts.",
+          "price": "$18.95"
+        },
+        {
+          "id": "shrimp-biryani",
+          "name": "Shrimp Biryani",
+          "description": "Shrimp marinated with spices and saffron, then steam cooked with naturally fragrant Basmati Rice.",
+          "price": "$19.95"
+        },
+        {
+          "id": "chef-special-biryani",
+          "name": "Chef Special Biryani",
+          "description": "Basmati rice is cooked with boneless pieces of chicken, cubes of lamb, and shrimp.",
+          "price": "$22.95"
+        },
+        {
+          "id": "vegetable-biryani",
+          "name": "Vegetable Biryani",
+          "description": "Vegetable biryani made with fragrant basmati rice, yogurt, spices & mixed vegetables.",
+          "price": "$14.95"
+        },
+        {
+          "id": "paneer-biryani",
+          "name": "Paneer Biryani",
+          "description": "Flavorful Indian rice dish made with marinated cubes of paneer (Indian cottage cheese), layered with basmati rice, saffron, herbs, and a mix of biryani spices, then slow-cooked to perfection!",
+          "price": "$15.95"
+        }
+      ]
+    },
+    {
+      "id": "chicken-dish",
+      "name": "CHICKEN DISH",
+      "items": [
+        {
+          "id": "chicken-curry",
+          "name": "Chicken Curry",
+          "description": "Chicken cooked in a light gravy, mild (curry).",
+          "price": "$15.95"
+        },
+        {
+          "id": "chicken-karahi",
+          "name": "Chicken Karahi",
+          "description": "Cooked in special gravy, onions, tomatoes and bell pepper; tossed in Indian iron skillet (Karahai).",
+          "price": "$15.95"
+        },
+        {
+          "id": "chicken-korma",
+          "name": "Chicken Korma",
+          "description": "A rare delicacy from northwest India. Juicy pieces of chicken especially prepared with yogurt, onions, tomatoes and mild spices.",
+          "price": "$15.95"
+        },
+        {
+          "id": "chicken-methi-malai",
+          "name": "Chicken Methi Malai",
+          "description": "Murgh methi malai is a decadent and luxurious Mughlai dish prepared with chicken and fresh methi (fenugreek) greens.",
+          "price": "$15.95"
+        },
+        {
+          "id": "chicken-tikka-masala",
+          "name": "Chicken Tikka Masala",
+          "description": "Chicken tikka masala is a dish of chunks of roasted marinated chicken in a spiced curry sauce. The sauce is usually creamy.",
+          "price": "$15.95"
+        },
+        {
+          "id": "chicken-vindaloo",
+          "name": "Chicken Vindaloo",
+          "description": "",
+          "price": "$15.95"
+        },
+        {
+          "id": "desi-chicken",
+          "name": "Desi Chicken",
+          "description": "Boneless Chicken sauteed with chopped onion, tomato, ginger, garlic and spices.",
+          "price": "$15.95"
+        },
+        {
+          "id": "butter-chicken",
+          "name": "Butter Chicken",
+          "description": "Tandoor baked chicken cooked in exotic spices with chopped tomatoes and butter.",
+          "price": "$15.95"
+        },
+        {
+          "id": "tawa-chicken",
+          "name": "Tawa Chicken",
+          "description": "Marinated chicken pieces that are stir-fried with spices, onions, tomatoes, and peppers.",
+          "price": "$15.95"
+        },
+        {
+          "id": "chicken-saag",
+          "name": "Chicken Saag",
+          "description": "Spinach and chicken cooked with fresh ginger, garlic, and spices.",
+          "price": "$15.95"
+        }
+      ]
+    },
+    {
+      "id": "dessert",
+      "name": "DESSERT",
+      "items": [
+        {
+          "id": "gulab-jamun",
+          "name": "Gulab Jamun",
+          "description": "Gulab jamun is a milk-solid-based sweet",
+          "price": "$5.95"
+        },
+        {
+          "id": "coconut-rice-pudding-kheer",
+          "name": "Coconut Rice Pudding (Kheer)",
+          "description": "Kheer a type of pudding from the Indian subcontinent, made by boiling milk, sugar, and rice",
+          "price": "$5.95"
+        }
+      ]
+    },
+    {
+      "id": "drinks",
+      "name": "DRINKS",
+      "items": [
+        {
+          "id": "chai",
+          "name": "Chai",
+          "description": "Masala chai is a flavoured tea beverage made by brewing black tea with a mixture of aromatic Indian spices and herbs.",
+          "price": "$3.95"
+        },
+        {
+          "id": "coca-cola-bottle",
+          "name": "Coca-Cola (Bottle)",
+          "description": "coke",
+          "price": "$2.45"
+        },
+        {
+          "id": "coke-zero",
+          "name": "Coke Zero",
+          "description": "",
+          "price": "$2.45"
+        },
+        {
+          "id": "diet-coke-bottle",
+          "name": "Diet Coke (Bottle)",
+          "description": "",
+          "price": "$2.45"
+        },
+        {
+          "id": "dr-pepper",
+          "name": "Dr Pepper",
+          "description": "",
+          "price": "$2.45"
+        },
+        {
+          "id": "mango-lassi",
+          "name": "Mango Lassi",
+          "description": "Mango lassi recipe (Indian mango yogurt drink).",
+          "price": "$4.50"
+        },
+        {
+          "id": "pibb-xtra",
+          "name": "Pibb Xtra",
+          "description": "",
+          "price": "$2.45"
+        },
+        {
+          "id": "sprite-bottle",
+          "name": "Sprite (Bottle)",
+          "description": "",
+          "price": "$2.45"
+        },
+        {
+          "id": "sweet-tea",
+          "name": "Sweet Tea",
+          "description": "",
+          "price": "$2.45"
+        },
+        {
+          "id": "unsweet-tea",
+          "name": "Unsweet Tea",
+          "description": "",
+          "price": "$2.45"
+        },
+        {
+          "id": "sparkling-water-bottle",
+          "name": "Sparkling Water (Bottle)",
+          "description": "",
+          "price": "$4.95"
+        }
+      ]
+    },
+    {
+      "id": "lamb-and-goat-dish",
+      "name": "LAMB AND GOAT DISH",
+      "items": [
+        {
+          "id": "goat-curry",
+          "name": "Goat Curry",
+          "description": "Goat meat with bones cooked in classic Indian Sauce",
+          "price": "$18.95"
+        },
+        {
+          "id": "goat-kadahi",
+          "name": "Goat Kadahi",
+          "description": "Goat meat with bones cooked in classic Indian Sauce, bell peppers, and Indian spices cooked to perfection.",
+          "price": "$18.95"
+        },
+        {
+          "id": "goat-tikka-masala",
+          "name": "Goat Tikka Masala",
+          "description": "Goat meat with bones cooked in Masala Sauce",
+          "price": "$18.95"
+        },
+        {
+          "id": "lamb-curry",
+          "name": "Lamb Curry",
+          "description": "Spicy lamb cooked in an onion sauce or sharp, tangy sauce.",
+          "price": "$18.95"
+        },
+        {
+          "id": "lamb-kadahi",
+          "name": "Lamb Kadahi",
+          "description": "Lamb cooked in special gravy, onions, tomatoes, and bell pepper; tossed in Indian iron skillet (Karahai)",
+          "price": "$18.95"
+        },
+        {
+          "id": "lamb-korma",
+          "name": "Lamb Korma",
+          "description": "Juicy pieces of lamb especially prepared with yogurt, onions, tomatoes and mild spices.",
+          "price": "$18.95"
+        },
+        {
+          "id": "lamb-methi-malai",
+          "name": "Lamb Methi Malai",
+          "description": "Luxurious Indian curry that combines tender pieces of lamb with the slightly bitter, aromatic fenugreek leaf.",
+          "price": "$18.95"
+        },
+        {
+          "id": "lamb-rogan-josh",
+          "name": "Lamb Rogan Josh",
+          "description": "Cubes of lamb marinated in exotic spices and cooked with chopped tomatoes in a creamy sauce.",
+          "price": "$18.95"
+        },
+        {
+          "id": "lamb-tikka-masala",
+          "name": "Lamb Tikka Masala",
+          "description": "Marinated sliced lamb baked in the tandoor, then cooked in a thick tomato and onion sauce.",
+          "price": "$18.95"
+        },
+        {
+          "id": "lamb-vindaloo",
+          "name": "Lamb Vindaloo",
+          "description": "Spicy lamb cooked in an onion sauce or sharp, tangy sauce.",
+          "price": "$18.95"
+        },
+        {
+          "id": "lamb-nihari",
+          "name": "Lamb Nihari",
+          "description": "Lamb cooked in fried onion, dry cheekpiece powder, and all-purpose flour with tomato and onion base light creamy gravy.",
+          "price": "$18.95"
+        },
+        {
+          "id": "lahuri-goat-korma",
+          "name": "Lahuri Goat Korma",
+          "description": "Lahori Goat Kadahi is a spicy and aromatic Pakistani dish featuring tender goat meat cooked in a tomato-based gravy with a rich blend of spices, including garam masala, cumin, and coriander, traditionally served in a karahi (wok), garnished with fresh ginger and cilantro.",
+          "price": "$18.95"
+        },
+        {
+          "id": "lamb-saag",
+          "name": "Lamb Saag",
+          "description": "Spinach and lamb cooked with fresh ginger, garlic, and spices.",
+          "price": "$18.95"
+        }
+      ]
+    },
+    {
+      "id": "momo",
+      "name": "MOMO",
+      "items": [
+        {
+          "id": "chicken-fry-chilly-momo",
+          "name": "Chicken Fry Chilly MoMo",
+          "description": "Nepali style dumplings filled with minced chicken, seasoned with herbs and spices, deep fried and tossed in a fiery sauce made with chili peppers, garlic, soy sauce, and vinegar.",
+          "price": "$14.45"
+        },
+        {
+          "id": "vegetable-fry-chilly-momo",
+          "name": "Vegetable Fry Chilly MoMo",
+          "description": "Nepali style dumplings filled with minced mixed vegetables, seasoned with herbs and spices, deep fried and tossed in a fiery sauce made with chili peppers, garlic, soy sauce, and vinegar.",
+          "price": "$12.95"
+        },
+        {
+          "id": "butter-chicken-momo",
+          "name": "Butter Chicken Momo",
+          "description": "Fried Nepali-style dumplings with a special tomato and onion base sauce with cream.",
+          "price": "$12.95"
+        }
+      ]
+    },
+    {
+      "id": "naan",
+      "name": "NAAN",
+      "items": [
+        {
+          "id": "alu-naan",
+          "name": "Alu Naan",
+          "description": "Indian unleavened bread filled with mildly spiced minced potatoes.",
+          "price": "$4.95"
+        },
+        {
+          "id": "bullet-naan",
+          "name": "Bullet Naan",
+          "description": "Chilli top Naan bread.",
+          "price": "$4.25"
+        },
+        {
+          "id": "garlic-chili-naan",
+          "name": "Garlic Chili Naan",
+          "description": "Indian flatbread infused with fresh garlic and fiery chili peppers, baked to a perfect crisp and softness in a tandoor.",
+          "price": "$4.25"
+        },
+        {
+          "id": "garlic-naan",
+          "name": "Garlic Naan",
+          "description": "Indian flatbread infused with fresh garlic topped, baked to a perfect crisp and softness in a tandoor.",
+          "price": "$4.45"
+        },
+        {
+          "id": "keema-naan",
+          "name": "Keema Naan",
+          "description": "Stuffed with ground chicken and spices.",
+          "price": "$5.45"
+        },
+        {
+          "id": "naan",
+          "name": "Naan",
+          "description": "Indian flatbread baked to a perfect crisp and softness in a tandoor.",
+          "price": "$3.45"
+        },
+        {
+          "id": "onion-naan",
+          "name": "Onion Naan",
+          "description": "This scrumptious unleavened bread is filled with onion.",
+          "price": "$5.45"
+        },
+        {
+          "id": "cheese-naan",
+          "name": "Cheese Naan",
+          "description": "A crisp Indian naan stuffed with cheese.",
+          "price": "$5.45"
+        },
+        {
+          "id": "peshwari-naan",
+          "name": "Peshwari Naan",
+          "description": "Stuffed with coconut, raisins and cashews.",
+          "price": "$5.45"
+        },
+        {
+          "id": "roti",
+          "name": "Roti",
+          "description": "Indian style whole wheat bread baked in tandoori oven.",
+          "price": "$3.45"
+        }
+      ]
+    },
+    {
+      "id": "seafood-dish",
+      "name": "SEAFOOD DISH",
+      "items": [
+        {
+          "id": "fish-curry",
+          "name": "Fish Curry",
+          "description": "",
+          "price": "$18.95"
+        },
+        {
+          "id": "fish-tikka-masala",
+          "name": "Fish Tikka Masala",
+          "description": "Fish tikka roasted in our clay oven and tossed in a deliciously zesty sauce.",
+          "price": "$18.95"
+        },
+        {
+          "id": "garlic-chili-shrimp",
+          "name": "Garlic Chili Shrimp",
+          "description": "Sauteed with sliced onion, tomato, green pepper, then glazed in tangy sauce garnished with cilantro.",
+          "price": "$19.95"
+        },
+        {
+          "id": "shrimp-curry",
+          "name": "Shrimp Curry",
+          "description": "",
+          "price": "$19.95"
+        },
+        {
+          "id": "shrimp-karahi",
+          "name": "Shrimp Karahi",
+          "description": "Fresh jumbo shrimp marinated with Indian spices cooked with ginger, fresh tomatoes, onions and bell pepper.",
+          "price": "$19.95"
+        },
+        {
+          "id": "shrimp-masala",
+          "name": "Shrimp Masala",
+          "description": "Shrimp sauteed in a zesty tikka masala sauce, with a touch of onion, pepper, and fenugreek leaves.",
+          "price": "$19.95"
+        },
+        {
+          "id": "fish-mohalee",
+          "name": "Fish Mohalee",
+          "description": "Flavorful South Indian curry made with boneless fish fillets simmered in a rich and creamy coconut milk sauce, seasoned with turmeric, mustard seeds, and curry leaves.",
+          "price": "$19.95"
+        },
+        {
+          "id": "shrimp-mohalee",
+          "name": "Shrimp Mohalee",
+          "description": "Flavorful South Indian curry made with shrimp in a rich and creamy coconut milk sauce, seasoned with turmeric, mustard seeds, and curry leaves.",
+          "price": "$19.95"
+        }
+      ]
+    },
+    {
+      "id": "sides",
+      "name": "SIDES",
+      "items": [
+        {
+          "id": "aachar",
+          "name": "Aachar",
+          "description": "Aachar",
+          "price": "$3.45"
+        },
+        {
+          "id": "mango-chutney",
+          "name": "Mango Chutney",
+          "description": "",
+          "price": "$3.45"
+        },
+        {
+          "id": "masala-sauce-16oz",
+          "name": "Masala Sauce 16OZ",
+          "description": "",
+          "price": "$8.45"
+        },
+        {
+          "id": "masala-sauce-8oz",
+          "name": "Masala Sauce 8OZ",
+          "description": "",
+          "price": "$4.95"
+        },
+        {
+          "id": "onion-lemon",
+          "name": "Onion Lemon",
+          "description": "",
+          "price": "$2.75"
+        },
+        {
+          "id": "raita-8oz",
+          "name": "Raita 8oz",
+          "description": "Raita is a delicious Indian side that has a cooling effect. It’s made with whisked plain yogurt cucumber, carrot and indian spices.",
+          "price": "$2.45"
+        },
+        {
+          "id": "curry-corner-special-sauce",
+          "name": "Curry Corner Special Sauce",
+          "description": "",
+          "price": "$1.30"
+        },
+        {
+          "id": "tamrind-sauce-8oz",
+          "name": "Tamrind Sauce 8oz",
+          "description": "",
+          "price": "$3.95"
+        },
+        {
+          "id": "mint-sauce-8oz",
+          "name": "Mint Sauce 8oz",
+          "description": "",
+          "price": "$3.95"
+        }
+      ]
+    },
+    {
+      "id": "tandoori",
+      "name": "TANDOORI",
+      "items": [
+        {
+          "id": "chicken-tandoori",
+          "name": "Chicken Tandoori",
+          "description": "Chicken marinated in yogurt and mild spices with its own natural juices, roasted in our tandoor oven.",
+          "price": "$16.95"
+        },
+        {
+          "id": "chicken-tikka",
+          "name": "Chicken Tikka",
+          "description": "Thick and juicy cubes of chicken roasted in our tandoor oven.",
+          "price": "$16.95"
+        },
+        {
+          "id": "lamb-chop-tandoori",
+          "name": "Lamb Chop Tandoori",
+          "description": "Lamb Chops are marinated in a blend of yogurt and spices including ginger, garlic, and traditional tandoori masala, then grilled in a clay oven for a smoky and succulent finish.",
+          "price": "$22.95"
+        },
+        {
+          "id": "shrimp-tandoori",
+          "name": "Shrimp Tandoori",
+          "description": "Shrimp are marinated in a blend of yogurt and spices including ginger, garlic, and traditional tandoori masala, then grilled in a clay oven for a smoky and succulent finish.",
+          "price": "$18.95"
+        },
+        {
+          "id": "lamb-boti-kabab",
+          "name": "Lamb boti kabab",
+          "description": "Marinated lamb cubes that are skewered and grilled to perfection, often seasoned with a blend of spices like garam masala, garlic, and ginger, and served with mint chutney and slices of onion.",
+          "price": "$19.95"
+        },
+        {
+          "id": "paneer-tikka",
+          "name": "Paneer Tikka",
+          "description": "Cubes of homemade cottage cheese marinated in mild spices and yogurt.",
+          "price": "$16.45"
+        }
+      ]
+    },
+    {
+      "id": "vegetarian",
+      "name": "VEGETARIAN",
+      "items": [
+        {
+          "id": "aloo-chana",
+          "name": "Aloo Chana",
+          "description": "Chick peas or diced potatoes cooked in the popular Punjabi style.",
+          "price": "$14.95"
+        },
+        {
+          "id": "aloo-gobi",
+          "name": "Aloo Gobi",
+          "description": "Potatoes and cauliflower cooked in Indian spices.",
+          "price": "$14.95"
+        },
+        {
+          "id": "bhindi-masala",
+          "name": "Bhindi Masala",
+          "description": "Fresh okra cooked with exotic spices, onion, and bell pepper.",
+          "price": "$14.95"
+        },
+        {
+          "id": "chana-masala",
+          "name": "Chana Masala",
+          "description": "Vibrant North Indian dish featuring chickpeas simmered in a spicy tomato-based sauce, enriched with onions, garlic, ginger, and fragrant spices like garam masala, cumin, and coriander.",
+          "price": "$14.95"
+        },
+        {
+          "id": "chana-saag",
+          "name": "Chana Saag",
+          "description": "Spinach and chick peas cooked with fresh ginger garlic and spices.",
+          "price": "$14.95"
+        },
+        {
+          "id": "dal-makhani",
+          "name": "Dal Makhani",
+          "description": "A rich and creamy North Indian dish made from whole black lentils and red kidney beans, slow-cooked with butter, cream, and aromatic spices.",
+          "price": "$14.95"
+        },
+        {
+          "id": "dal-tadka",
+          "name": "Dal Tadka",
+          "description": "Assorted lentils sauteed with ginger, onion, garlic, and tomato.",
+          "price": "$14.95"
+        },
+        {
+          "id": "kadai-paneer",
+          "name": "Kadai Paneer",
+          "description": "Paneer fried in onion sauce with Indian spices.",
+          "price": "$14.95"
+        },
+        {
+          "id": "malai-kofta",
+          "name": "Malai Kofta",
+          "description": "Homemade cheese stuffed in vegetable balls, cooked in a mildly spiced creamy and cashew sauce.",
+          "price": "$14.95"
+        },
+        {
+          "id": "matar-paneer",
+          "name": "Matar Paneer",
+          "description": "Green peas cooked with homemade Indian cheese in a mild sauce and spices.",
+          "price": "$14.95"
+        },
+        {
+          "id": "paneer-methi-malai",
+          "name": "Paneer Methi Malai",
+          "description": "Cottage cheese and fenugreek leaves cooked in a creamy, luscious and mildly spiced curry sauce.",
+          "price": "$14.95"
+        },
+        {
+          "id": "mushroom-matar",
+          "name": "Mushroom Matar",
+          "description": "Green peas and mushrooms cooked in a mild curry sauce.",
+          "price": "$14.95"
+        },
+        {
+          "id": "paneer-bhurji",
+          "name": "Paneer Bhurji",
+          "description": "Homemade Indian cottage cheese sauteed with onion rings, garlic and tomatoes.",
+          "price": "$14.95"
+        },
+        {
+          "id": "paneer-jalfrezi",
+          "name": "Paneer Jalfrezi",
+          "description": "Cubes of homemade Indian cottage cheese cooked in a creamy sauce with mix vegetables and exotic spices.",
+          "price": "$14.95"
+        },
+        {
+          "id": "paneer-masala",
+          "name": "Paneer Masala",
+          "description": "Cubes of homemade Indian cottage cheese cooked in a creamy sauce with fresh tomatoes and exotic spices.",
+          "price": "$14.95"
+        },
+        {
+          "id": "palak-paneer",
+          "name": "Palak Paneer",
+          "description": "Saag Paneer is a delicious Indian curry made using a mix of green leafy vegetables and fried cubes of paneer.",
+          "price": "$14.95"
+        },
+        {
+          "id": "shahi-paneer",
+          "name": "Shahi Paneer",
+          "description": "Homemade Indian cottage cheese cooked mildly spiced tomato and cream sauce.",
+          "price": "$14.95"
+        },
+        {
+          "id": "nawa-ratam-vegetable-korma",
+          "name": "Nawa Ratam Vegetable Korma",
+          "description": "Mixed vegetables and paneer marinated in yogurt and cooked in a creamy sauce with exotic Indian spices.",
+          "price": "$14.95"
+        },
+        {
+          "id": "tawafry-vegetables",
+          "name": "Tawafry vegetables",
+          "description": "Assorted vegetables such as bell peppers, cauliflower, carrots, and potatoes are marinated in spices and cooked on a large, flat griddle (tawa) until crispy and browned.",
+          "price": "$12.95"
+        },
+        {
+          "id": "gobi-manchurian",
+          "name": "Gobi Manchurian",
+          "description": "Popular Indo-Chinese dish made from crispy, batter-fried cauliflower florets tossed in a spicy, sweet, and tangy sauce",
+          "price": "$14.95"
+        }
+      ]
+    },
+    {
+      "id": "noodles",
+      "name": "NOODLES",
+      "items": [
+        {
+          "id": "chicken-noodles",
+          "name": "Chicken Noodles",
+          "description": "Stir-fried noodles, tender pieces of chicken, and a variety of vegetables, all tossed together in a savory sauce that often includes soy sauce, garlic, and ginger.",
+          "price": "$13.95"
+        },
+        {
+          "id": "shrimp-noodles",
+          "name": "Shrimp Noodles",
+          "description": "Stir-fried noodles, shrimp and a variety of vegetables, all tossed together in a savory sauce that often includes soy sauce, garlic, and ginger.",
+          "price": "$15.95"
+        },
+        {
+          "id": "vegetable-noodles",
+          "name": "Vegetable Noodles",
+          "description": "Stir-fried noodles and a variety of vegetables, all tossed together in a savory sauce that often includes soy sauce, garlic, and ginger.",
+          "price": "$11.95"
+        }
+      ]
+    },
+    {
+      "id": "rice",
+      "name": "RICE",
+      "items": [
+        {
+          "id": "plain-rice",
+          "name": "Plain Rice",
+          "description": "",
+          "price": "$4.95"
+        },
+        {
+          "id": "vegetable-fried-rice",
+          "name": "Vegetable Fried Rice (indo-chinese style)",
+          "description": "",
+          "price": "$12.95"
+        },
+        {
+          "id": "chicken-fried-rice",
+          "name": "Chicken Fried Rice (indo-chinese style)",
+          "description": "",
+          "price": "$13.95"
+        }
+      ]
+    },
+    {
+      "id": "game-night-combo",
+      "name": "Game Night Combo",
+      "items": [
+        {
+          "id": "game-night-chicken-chilly-fry",
+          "name": "Chicken Chilly Fry",
+          "description": "Boneless chicken cooked in Indian and Chinese style",
+          "price": "$14.95"
+        },
+        {
+          "id": "game-night-chicken-fry-chilly-momo",
+          "name": "Chicken Fry Chilly MoMo",
+          "description": "Nepali style dumplings filled with minced chicken, seasoned with herbs and spices, deep fried and tossed in a fiery sauce made with chili peppers, garlic, soy sauce, and vinegar.",
+          "price": "$14.45"
+        },
+        {
+          "id": "chicken-tikka-biryani",
+          "name": "Chicken Tikka Biryani",
+          "description": "Boneless white chicken sauteed with fresh onions and bell peppers cooked with steamed rice and spices.",
+          "price": "$14.95"
+        },
+        {
+          "id": "game-night-chicken-tikka-masala",
+          "name": "Chicken Tikka Masala",
+          "description": "Chicken tikka masala is a dish of chunks of roasted marinated chicken in a spiced curry sauce. The sauce is usually creamy.",
+          "price": "$15.95"
+        },
+        {
+          "id": "game-night-butter-chicken",
+          "name": "Butter Chicken",
+          "description": "Tandoor baked chicken cooked in exotic spices with chopped tomatoes and butter.",
+          "price": "$15.95"
+        },
+        {
+          "id": "game-night-garlic-naan",
+          "name": "Garlic Naan",
+          "description": "Indian flatbread infused with fresh garlic topped, baked to a perfect crisp and softness in a tandoor.",
+          "price": "$4.45"
+        },
+        {
+          "id": "game-night-garlic-chili-naan",
+          "name": "Garlic Chili Naan",
+          "description": "Indian flatbread infused with fresh garlic and fiery chili peppers, baked to a perfect crisp and softness in a tandoor.",
+          "price": "$4.25"
+        }
+      ]
+    }
+  ]
+}

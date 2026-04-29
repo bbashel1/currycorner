@@ -1,26 +1,73 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --cc-bg: #0f0908;
+  --cc-bg-elevated: #1a100e;
+  --cc-card: #231815;
+  --cc-border: rgba(255, 220, 180, 0.1);
+  --cc-border-hover: rgba(232, 165, 75, 0.22);
+  --cc-border-strong: rgba(255, 213, 170, 0.16);
+  --cc-cream: #faf3ea;
+  --cc-muted: #b89e91;
+  --cc-accent: #c73d1f;
+  --cc-accent-hover: #e04a28;
+  --cc-accent-light: #ff9f70;
+  --cc-gold: #e8a54b;
+  --cc-shadow-card: 0 18px 40px -16px rgba(0, 0, 0, 0.55);
+  --cc-shadow-card-hover: 0 24px 48px -12px rgba(0, 0, 0, 0.6);
+  --background: var(--cc-bg);
+  --foreground: var(--cc-cream);
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --font-sans: var(--font-body), ui-sans-serif, system-ui, sans-serif;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+html {
+  scroll-behavior: smooth;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  color: var(--cc-cream);
+  font-family: var(--font-body), ui-sans-serif, system-ui, sans-serif;
+  background-color: var(--cc-bg);
+  background-image: radial-gradient(
+      ellipse 120% 80% at 50% -40%,
+      rgba(199, 61, 31, 0.14),
+      transparent 55%
+    ),
+    radial-gradient(ellipse 70% 50% at 100% 10%, rgba(232, 165, 75, 0.06), transparent 50%),
+    linear-gradient(180deg, #0f0908 0%, #120a09 50%, #0f0908 100%);
+  background-attachment: fixed;
+}
+
+::selection {
+  background: var(--cc-gold);
+  color: var(--cc-bg);
+}
+
+:focus-visible {
+  outline: none;
+}
+
+@layer utilities {
+  .font-heading {
+    font-family: var(--font-heading), ui-serif, Georgia, "Times New Roman", serif;
+    font-feature-settings: "kern" 1, "liga" 1;
+  }
+
+  .cc-text-balance {
+    text-wrap: balance;
+  }
+
+  .cc-pattern {
+    background-image: linear-gradient(
+        rgba(255, 255, 255, 0.02) 1px,
+        transparent 1px
+      ),
+      linear-gradient(90deg, rgba(255, 255, 255, 0.02) 1px, transparent 1px);
+    background-size: 48px 48px;
+  }
 }
